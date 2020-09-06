@@ -1,0 +1,73 @@
+/* Footer */
+.footerInfo {
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #ed9aa0;
+}
+
+.contenedor {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.contenedor p {
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+}
+
+.logoContenedor {
+    width: 25%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.infoColumnas {
+    width: calc(21% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.infoColumnas h5 {
+    font-size: 22px;
+    font-family: Roboto;
+    display: flex;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.tipografia {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: black;
+    display: block;
+    font-weight: 200%;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.contactoInfo {
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+
+.contenedorInfo {
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.infodelCliente {
+    padding: 30px;
+    margin-right: 10px;
+}
