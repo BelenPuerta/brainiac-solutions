@@ -3,11 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contacto</title>
-    <link rel="stylesheet" type="text/css" href="css/estilosCSS.css">
+    <title>BrainiacSolutions</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Patua+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilosCSS.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <meta name="description" content=" Brainiac Solutions es un estudio creativo que te acompaña en la cración y evolución de tus proyectos para darles la forma estética y comunicacional que necesitan. Te ofrecemos múltiples servicios como diseño gráfico, web y social media, buscando la mejor propuesta que se adapte a vos.">
+    <meta name="keywords" content=" estudio creativo, estudio de diseño grafico, diseño web, social media">
 </head>
 
 <body>
@@ -27,25 +31,35 @@
     </header>
     <br>
     <section class="contactoInfo">
-        <div class="contenedorInfo">
-            <img width="100%" height="100%" src="imagenes/map.png">
-        </div>
-        <div class="infoColumnas">
-            <div class="infodelCliente">
-                <h5>Dejanos tu contacto</h5>
-                <form class="form-inline">
-                    <div class="form-group">
-                        <label class="tipografia" for="exampleInputName2">Nombre</label>
-                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-                    </div>
-                    <div class="form-group">
-                        <label class="tipografia" for="exampleInputEmail2">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-                    </div>
-                    <button type="submit" class="btn btn-default">ENVIAR</button>
-                </form>
+        <section class="contact-info">
+            <section class="info-title">
+                <span class="fa fa-user-circle"></span>
+                <h2> INFORMACIÓN <br>DE CONTACTO</h2>
+            </section>
+            <section class="info-items">
+                <p><span class="fa fa-envelope"></span>infobs@gmail.com</p>
+                <p><span class="fa fa-mobile"></span>(123) 456-7890</p>   
+            </section>
+        </section>
+        <form action="" class="form-contact">
+            <h4>Envia un mensaje</h4>
+            <div class="user-info">
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+                <label for="phone">Teléfono</label>
+                <input type="text" id="phone">
+                <label for="name">Email</label>
+                <input type="text" id="email">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje"></textarea>
+                <input type="button" value="Enviar mensaje" id="btnSend">
+               
+
+
+
             </div>
-        </div>
+        </form>
+        
     </section>
     <footer>
         <div class="footerInfo">
