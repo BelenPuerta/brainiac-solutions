@@ -359,6 +359,155 @@ h2{
 }
 
 
+/* Empiezan estilos de Sobre mi html grilla */
+.titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.sobreMi-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 15px 15px;
+  text-align: center;
+  grid-template-areas:
+  "fraseUno fraseDos fraseTres";
+}
+
+.fraseUno {
+  grid-area: fraseUno;
+  background-color: #fdc5bc;
+  padding: 40px;
+  margin: 3%;
+  min-height: 180px;
+  font-size: 20px;
+
+}
+.fraseDos {
+  grid-area: fraseDos;
+  background-color: #f8c86c;
+  padding: 40px;
+  margin: 3%;
+  min-height: 180px;
+  font-size: 20px;
+}
+
+.fraseTres {
+  grid-area: fraseTres;
+  background-color: #e0bbce;
+  padding: 40px;
+  margin: 3%;
+  min-height: 180px;
+  font-size: 20px;
+}
+
+
+/* Empiezan estilos de Servicios html grilla */
+
+.titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.servicios-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 15px 15px;
+  text-align: center;
+  grid-template-areas:
+  "textoUno textoDos textoTres";
+}
+
+.textoUno {
+  grid-area: textoUno;
+  background-color: #fdc5bc;
+  padding: 40px;
+  margin: 3%;
+  min-height: 180px;
+  font-size: 20px;
+
+}
+.textoDos {
+  grid-area: textoDos;
+  background-color: #f8c86c;
+  padding: 40px;
+  margin: 3%;
+  min-height: 180px;
+  font-size: 20px;
+}
+
+.textoTres {
+  grid-area: textoTres;
+  background-color: #e0bbce;
+  padding: 40px;
+  margin: 3%;
+  min-height: 180px;
+  font-size: 20px;
+}
+
+.grid-container-gifs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1.5fr 1.5fr;
+  gap: 20px 20px;
+  grid-template-areas: "gifUno gifDos gifTres" "gifCuatro gifCinco gifSeis" ". . .";
+}
+
+.gifUno { 
+  grid-area: gifUno;
+  background-color: #f8c86c;
+  padding: 20px;
+  margin: 3%;
+  min-height: 160px;
+}
+
+.gifDos { 
+  grid-area: gifDos;
+  background-color: #f8c86c;
+  padding: 20px;
+  margin: 3%;
+  min-height: 180px;
+}
+
+.gifTres { 
+  grid-area: gifTres;
+  background-color: #f8c86c;
+  padding: 20px;
+  margin: 3%;
+  min-height: 180px;
+}
+
+.gifCuatro { 
+  grid-area: gifCuatro;
+  background-color: #f8c86c;
+  padding: 20px;
+  margin: 3%;
+  min-height: 180px;
+}
+
+.gifCinco { 
+  grid-area: gifCinco;
+  background-color: #f8c86c;
+  padding: 20px;
+  margin: 3%;
+  min-height: 180px;
+ }
+
+.gifSeis { 
+  grid-area: gifSeis;
+  background-color: #f8c86c; 
+  padding: 20px;
+  margin: 3%;
+  min-height: 180px;
+}
+
+
 /* Slider Testimonial */
 
 .testimonial-section {
